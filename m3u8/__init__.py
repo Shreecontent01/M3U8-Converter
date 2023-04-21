@@ -4,7 +4,7 @@ import os
 if bool(os.environ.get("ENV", False)):
     from m3u8.sample_config import Config
 else:
-    from m3u8.config import Config
+    from m3u8.sample_config import Config
 
 
 # TODO: is there a better way?
