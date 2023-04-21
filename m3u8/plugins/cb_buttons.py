@@ -1,7 +1,6 @@
 import logging
 from pyrogram import (
-    Client,
-    CallbackQuery
+    Client, CallbackQuery
 )
 from m3u8 import BLACKLIST_USERS
 from m3u8.plugins.youtube_dl_button import youtube_dl_call_back
